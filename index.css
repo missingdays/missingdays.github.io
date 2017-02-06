@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.block {
+	width: 50%;
+	height: 50%;
+
+	background-color: #ecf0f1;
+	color: #2c3e50;
+
+	font-size: 60px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: all 0.5s ease;
+
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+.block:hover{
+	background-color: #bdc3c7;
+	color: #34495e;
+}
+
+#machine, #me {
+	float: right;
+}
